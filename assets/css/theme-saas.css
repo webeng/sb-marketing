@@ -19,7 +19,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #0F66DC;
+  --primary: #4a96d4;
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
@@ -1757,12 +1757,12 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #0F66DC;
-  border-color: #0F66DC; }
+  background-color: #4ad496;
+  border-color: #4ad496; }
   .btn-primary:hover {
     color: #fff;
-    background-color: #0d55b8;
-    border-color: #0c50ac; }
+    background-color: #38b37c;
+    border-color: #38b37c; }
   .btn-primary:focus, .btn-primary.focus {
     box-shadow: 0 0 0 0.2rem rgba(51, 125, 225, 0.5); }
   .btn-primary.disabled, .btn-primary:disabled {
@@ -2007,12 +2007,12 @@ fieldset:disabled a.btn {
       box-shadow: 0 0 0 0.2rem rgba(15, 102, 220, 0.5); }
 
 .btn-outline-secondary {
-  color: #6c757d;
-  border-color: #6c757d; }
+  color: #4a96d4;
+  border-color: #4a96d4; }
   .btn-outline-secondary:hover {
     color: #fff;
-    background-color: #6c757d;
-    border-color: #6c757d; }
+    background-color: #4a96d4;
+    border-color: #4a96d4; }
   .btn-outline-secondary:focus, .btn-outline-secondary.focus {
     box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5); }
   .btn-outline-secondary.disabled, .btn-outline-secondary:disabled {
@@ -4798,7 +4798,7 @@ a.close.disabled {
   vertical-align: text-top !important; }
 
 .bg-primary {
-  background-color: #0F66DC !important; }
+  background-color: #4a96d4 !important; }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
@@ -7870,15 +7870,19 @@ img.bg-image {
 
 .btn-white {
   background: #fff;
-  color: #0F66DC; }
+  color: #4a96d4; }
   .btn-white > .icon path {
     fill: #0F66DC; }
   .btn-white:hover {
-    color: #0F66DC;
+    color: #3683c1;
     background: rgba(255, 255, 255, 0.9); }
 
 .btn-outline-white {
-  border-color: #dee2e6; }
+  border-color: #dee2e6;
+  color: #fff; }
+  .btn-outline-white:hover {
+    color: #4a96d4;
+    background: #fff; }
 
 .btn-round {
   border-radius: 50%;
@@ -8298,7 +8302,7 @@ svg.bg-white * {
   fill: #fff; }
 
 svg.bg-primary * {
-  fill: #0F66DC; }
+  fill: #4a96d4; }
 
 svg.bg-primary-alt * {
   fill: #f1f6fd; }
